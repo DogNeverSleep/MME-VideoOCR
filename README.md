@@ -6,12 +6,40 @@
 
 <div align="center">
 
-**Project Page:** [![Mavors-project-page](https://img.shields.io/badge/MME_VideoOCR-project_page-red)](https://mme-videoocr.github.io/) &nbsp;&nbsp;&nbsp; **arXiv Paper:** [![Static Badge](https://img.shields.io/badge/MME_VideoOCR-paper-green)](https://arxiv.org/pdf/) &nbsp;&nbsp;&nbsp; **Dataset:** [![Static Badge](https://img.shields.io/badge/MME_VideoOCR-Dataset-blue)](https://huggingface.co/datasets/DogNeverSleep/MME-VideoOCR_Dataset)
+**Project Page:** [![Mavors-project-page](https://img.shields.io/badge/MME_VideoOCR-Project_Page-red)](https://mme-videoocr.github.io/) &nbsp;&nbsp;&nbsp; **arXiv Paper:** [![Static Badge](https://img.shields.io/badge/MME_VideoOCR-Paper-green)](https://arxiv.org/pdf/) &nbsp;&nbsp;&nbsp; **Dataset:** [![Static Badge](https://img.shields.io/badge/MME_VideoOCR-Dataset-blue)](https://huggingface.co/datasets/DogNeverSleep/MME-VideoOCR_Dataset)
 
 </div>
 
 ## 📢 News
 - **[2025/05/28]** MME-VideoOCR is released! 🎉
+
+## 🔍 Dataset Examples
+![teaser](src/images/teaser.png)
+
+The task requires the MLLM to first recognize the textual information distributed across multiple video frames, and then to perform semantic understanding and reasoning over the extracted text to accurately determine the correct answer. The correct information is marked in <span style="color:#0070C0;">blue</span>, while misleading information is marked in <span style="color:#C00000;">red</span>.
+
+## 💡 Representive Examples of Each Task
+![visualization](src/images/visualization.png)
+
+## ✨ Evaluation Pipeline
+We support two evaluation methods: **manual evaluation** and **automated evaluation** via the [llms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) framework.
+
+First, please download the video files from our [Hugging Face repository](https://huggingface.co/datasets/DogNeverSleep/MME-VideoOCR_Dataset/tree/main) to your local path.
+
+### 📍 Manual Evaluation
+
+
+### 📍 Automated Evaluation via lmms-eval
+The evaluation framework of MME-VideoOCR has been integrated into the [llms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
+
+The code can be found in:
+```
+MME-VideoOCR/eval/lmms-eval/mme_videoocr
+```
+Replace `LOCAL_VIDEO_PATH` in `utils.py` with the path to your local video folder.
+
+Then, place the `mme_videoocr` folder into the `lmms_eval/tasks` directory in [llms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
+
 
 ## 🔖 Dataset License
 **License:**
