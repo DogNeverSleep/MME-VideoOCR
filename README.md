@@ -29,17 +29,36 @@ The task requires the MLLM to first recognize the textual information distribute
 ![visualization](src/images/visualization.png)
 
 ## ✨ Evaluation Pipeline
-We support two evaluation methods: **manual evaluation** and **automated evaluation** via the [llms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) framework.
+We support two evaluation methods: **manual evaluation** and **automated evaluation** via the [llms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) framework, a  convenient evaluation toolkit for MLLMs.
 
-First, please download the video files from our [Hugging Face repository](https://huggingface.co/datasets/DogNeverSleep/MME-VideoOCR_Dataset/tree/main) to your local path.
+Before evaluation, please download the video files from our [Hugging Face repository](https://huggingface.co/datasets/DogNeverSleep/MME-VideoOCR_Dataset/tree/main) to your local path.
 
 ### 📍 Manual Evaluation
-
+The manual evaluation code of MME-VideoOCR can be found in:
+```
+MME-VideoOCR/evaluation/manual_evaluation
+```
+This folder contains the following files:
+```
+manual_evaluation/
+├── eval_utils.py
+└── process_results.py
+```
+By making simple modifications and integrations to the above code, you can perform manual evaluation of MLLMs. The steps are as follows:
+1. First, please manually download the QA file `dataset.json` from our [Hugging Face repository](https://huggingface.co/datasets/DogNeverSleep/MME-VideoOCR_Dataset/tree/main).
+2. `eval_utils.py` provides functions for converting examples in `dataset.json` into formatted prompts. This is designed for integrating MME-VideoOCR samples into your MLLM inference pipeline.
+3. After obtaining the model's response, you can use `process_utils.py` to process the output and compute the final score.
 
 ### 📍 Automated Evaluation via lmms-eval
-The evaluation code of MME-VideoOCR can be found in:
+The automated evaluation code of MME-VideoOCR can be found in:
 ```
-MME-VideoOCR/evaluation/lmms-eval/mme_videoocr
+MME-VideoOCR/evaluation/automated_evaluation/mme_videoocr
+```
+This folder contains the following files:
+```
+mme_videoocr/
+├── mme_videoocr.yaml
+└── utils.py
 ```
 Replace `LOCAL_VIDEO_PATH` in `utils.py` with the path to your local video folder.
 
