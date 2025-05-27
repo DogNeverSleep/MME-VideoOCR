@@ -37,7 +37,7 @@ First, please download the video files from our [Hugging Face repository](https:
 ### 📍 Automated Evaluation via lmms-eval
 The evaluation code of MME-VideoOCR can be found in:
 ```
-MME-VideoOCR/eval/lmms-eval/mme_videoocr
+MME-VideoOCR/evaluation/lmms-eval/mme_videoocr
 ```
 Replace `LOCAL_VIDEO_PATH` in `utils.py` with the path to your local video folder.
 
