@@ -2,7 +2,7 @@
 
 </div>
 
-## MME-VideoOCR: Evaluating OCR-Based Capabilities of Multimodal LLMs in Video Scenarios
+# MME-VideoOCR: Evaluating OCR-Based Capabilities of Multimodal LLMs in Video Scenarios
 
 **Project Page:** [![Mavors-project-page](https://img.shields.io/badge/MME_VideoOCR-project_page-red)](https://mme-videoocr.github.io/) 
 
