@@ -16,7 +16,9 @@
     - **A Rich and Diverse Dataset**. MME-VideoOCR comprises 1,464 carefully selected videos spanning 44 diverse scenarios, accompanied by 2,000 manually annotated QA pairs.
     - **Extensive Model Experiments**. We evaluate 18 state-of-the-art MLLMs, including GPT-4o, Gemini-2.5 Pro and open-source models from 7B to 78B parameters.
 
-## 🔍 Dataset Example
+## 🔍 Benchmark Overview
+![teaser](src/images/statistics.png)
+
 ![teaser](src/images/teaser.png)
 
 The task requires the MLLM to first recognize the textual information distributed across multiple video frames, and then to perform semantic understanding and reasoning over the extracted text to accurately determine the correct answer. The correct information is marked in <span style="color:#0070C0;">blue</span>, while misleading information is marked in <span style="color:#C00000;">red</span>.
