@@ -10,6 +10,8 @@
 
 </div>
 
+---
+
 ## 📢 News
 - **[2025/05/28]** We are proud to introduce **MME-VideoOCR**, a comprehensive benchmark designed to evaluate MLLMs' OCR-based capabilities in video scenarios. 🎉 Our benchmark includes:
     - **A Multi-Dimensional Task Suite**. We design 10 task categories encompassing 25 fine-grained tasks that assess a wide range of capabilities, such as text recognition, multi-frame information integration and special-format text parsing.
