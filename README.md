@@ -12,7 +12,7 @@
 
 ## 📢 News
 - **[2025/05/28]** We are proud to introduce **MME-VideoOCR**, a comprehensive benchmark designed to evaluate MLLMs' OCR-based capabilities in video scenarios. 🎉 Our benchmark includes:
-    - **A Multi-Dimensional Task Suite**. We design 10 task categories encompassing 25 fine-grained tasks that assess a wide range of capabilities, such as multi-frame information integration, special-format text parsing.
+    - **A Multi-Dimensional Task Suite**. We design 10 task categories encompassing 25 fine-grained tasks that assess a wide range of capabilities, such as text recognition, multi-frame information integration and special-format text parsing.
     - **A Rich and Diverse Dataset**. MME-VideoOCR comprises 1,464 carefully selected videos spanning 44 diverse scenarios, accompanied by 2,000 manually annotated QA pairs.
     - **Extensive Model Experiments**. We evaluate 18 state-of-the-art MLLMs, including GPT-4o, Gemini-2.5 Pro and open-source models from 7B to 78B parameters.
 
