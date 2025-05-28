@@ -6,7 +6,7 @@
 
 <div align="center">
 
-**Project Page:** [![Mavors-project-page](https://img.shields.io/badge/MME_VideoOCR-Project_Page-red)](https://mme-videoocr.github.io/) &nbsp;&nbsp;&nbsp; **arXiv Paper:** [![Static Badge](https://img.shields.io/badge/MME_VideoOCR-Paper-green)](https://arxiv.org/pdf/) &nbsp;&nbsp;&nbsp; **Dataset:** [![Static Badge](https://img.shields.io/badge/MME_VideoOCR-Dataset-blue)](https://huggingface.co/datasets/DogNeverSleep/MME-VideoOCR_Dataset)
+**Project Page:** [![Mavors-project-page](https://img.shields.io/badge/MME_VideoOCR-Project_Page-red)](https://mme-videoocr.github.io/) &nbsp;&nbsp;&nbsp; **arXiv Paper:** [![Static Badge](https://img.shields.io/badge/MME_VideoOCR-Paper-green)](https://arxiv.org/pdf/2505.21333) &nbsp;&nbsp;&nbsp; **Dataset:** [![Static Badge](https://img.shields.io/badge/MME_VideoOCR-Dataset-blue)](https://huggingface.co/datasets/DogNeverSleep/MME-VideoOCR_Dataset)
 
 </div>
 
