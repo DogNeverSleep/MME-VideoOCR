@@ -96,7 +96,14 @@ Please send an email to <u>frankyang1517@gmail.com</u>. 🌟
 
 ## 📚 Citation
 ```bibtex
-@misc{
+@misc{shi2025mmevideoocrevaluatingocrbasedcapabilities,
+      title={MME-VideoOCR: Evaluating OCR-Based Capabilities of Multimodal LLMs in Video Scenarios}, 
+      author={Yang Shi and Huanqian Wang and Wulin Xie and Huanyao Zhang and Lijie Zhao and Yi-Fan Zhang and Xinfeng Li and Chaoyou Fu and Zhuoer Wen and Wenting Liu and Zhuoran Zhang and Xinlong Chen and Bohan Zeng and Sihan Yang and Yuanxing Zhang and Pengfei Wan and Haotian Wang and Wenjing Yang},
+      year={2025},
+      eprint={2505.21333},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.21333}, 
 }
 ```
 
